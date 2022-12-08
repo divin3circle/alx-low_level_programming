@@ -1,6 +1,7 @@
 #include <stdio.h>
-/* Strating point of the program
-*int main - starting point
+
+/**
+* main -> program entry point
 *
 *Return: 0 successful
 */

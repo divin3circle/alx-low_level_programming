@@ -1,9 +1,8 @@
 #include <stdio.h>
-
 /**
 *main -> program entry, prints datatypes and thier sizes
 *
-*Return value: 0 (successful)
+*Return: Always 0(successful)
 */
 int main(void)
 {
@@ -12,6 +11,7 @@ int main(void)
 	long int l;
 	long long int m;
 	float n;
+
 	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(i));
 	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(j));
 	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(l));

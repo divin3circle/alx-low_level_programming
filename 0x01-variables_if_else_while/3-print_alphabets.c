@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main -> program entry, displays chacters from a-z in lowercase thenin uppercase
+* main -> program entry, displays char in lower then uppercase
 *
 * Return: always 0(success)
 */

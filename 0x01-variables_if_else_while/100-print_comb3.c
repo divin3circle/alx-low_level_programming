@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/* main -> program entry, displays all combinaions of two digits
-*
+/**
+*main -> program entry, displays all combinaions of two digits
 * Return: always 0(success)
 */
 int main(void)

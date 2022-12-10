@@ -9,14 +9,12 @@ int main(void)
 {
 	int i;
 	int x;
-	int z;
-	z = x-i;
 
 	for (i = 0; i <= 9; i++)
 	{
 		for (x = 0; x<= 9; x++)
 		{
-			if (x == i && (z == 1 || -1))
+			if (x == i)
 				continue;
 			putchar((i % 10) + '0');
 			putchar((x % 10) + '0');

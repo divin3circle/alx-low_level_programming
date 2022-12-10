@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-/* main -> program entry, displays all combinaions of
-* numbers that can be made by two digits
+/* main -> program entry, displays all combinaions of two digits
 *
 * Return: always 0(success)
 */
@@ -12,7 +11,7 @@ int main(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		for (x = 0; x<= 9; x++)
+		for (x = 0; x <= 9; x++)
 		{
 			if (x == i)
 				continue;

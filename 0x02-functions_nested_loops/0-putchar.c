@@ -7,7 +7,7 @@
 * Return: 0 always successful
 */
 
-int main()
+int main(void)
 {
 
 	char mess[] = "_putchar";
@@ -24,6 +24,6 @@ int main()
 		else
 			putchar(mess[i]);
 	}
-		return 0;
+		return (0);
 }
 

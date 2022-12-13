@@ -1,1 +1,1 @@
-This repo covers proC introductory phase of low level programming
+This repo covers C low level programing 

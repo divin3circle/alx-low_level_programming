@@ -1,27 +1,22 @@
 #include "main.h"
 
 /**
-* main -> program entry, prints _putchar in a new line
+* main - program entry point, prints to the screen
 *
-* Return: 0 always successful
+* Return: 0 always(success)
 */
-
 int main(void)
 {
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-	char mess[] = "_putchar";
-	int i;
-
-/* loop through the message char*/
-	for (i = 0; i < 9; i++)
-	{
-		if (mess[i] == '\0')
-		{
-			_putchar('\n');
-			break;
-		}
-		else
-			_putchar(mess[i]);
-	}
-		return (0);
+	return (0);
 }
+

@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <string.h>
+#include "main.h"
 
 /**
 * main -> program entry, prints _putchar in a new line
@@ -18,12 +17,11 @@ int main(void)
 	{
 		if (mess[i] == '\0')
 		{
-			putchar('\n');
+			_putchar('\n');
 			break;
 		}
 		else
-			putchar(mess[i]);
+			_putchar(mess[i]);
 	}
 		return (0);
 }
-

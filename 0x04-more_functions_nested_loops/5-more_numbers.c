@@ -5,21 +5,21 @@
  *
  * Return: 0 always(success)
  */
-
 void more_numbers(void)
 {
-	int i, a;
+int o, t;
 
-	for (a = 0; a <= 10; a++)
-	{
-		for (i = 0; i <= 14; i++)
-		{
-			if (i > 9)
-			{
-				_putchar((i / 10) + '0');
-			}
-			_putchar((i % 10) + '0');
-		}
-		_putchar(10);
-	}
+for (o = 0; o <= 10; o++)
+{
+for (t = 0; t <= 14; t++)
+
+{
+if (t > 9)
+{
+_putchar((t / 10) + '0');
+}
+_putchar((t % 10) + '0');
+}
+_putchar('\n');
+}
 }

@@ -2,23 +2,35 @@
 
 /**
  * largest_number - returns the largest of three numbers
- * @a: first int
- * @b: second int
- * @c: third int
- * Return: the largest int
+ * @a: first integer
+ * @b: second integer
+ * @c: third integer
+ * Return: the largest number
  */
+
 int largest_number(int a, int b, int c)
 {
-	int largest;
+int largest;
 
-	if (a > b && a > c)
-		largest = a;
-	else if (b > c && b > a)
-		largest b;
-	else if (c > b)
-		largest = c;
-	else
-		largest = b;
+if (a >b)
+{
+if (a > c)
+{
+largest = a;
+}
+else
+{
+largest = c;
+}
+}
+else if (b > c)
+{
+largest = b;
+}
+else
+{
+largest = c;
+}
 
-	return (largest);
+return (largest);
 }

@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+/**
+ * main - program entry
+ *
+ * Return: 0 always
+ */
+
+int main(void)
+{
+	int a, b;
+
+	for (a = 1; a <= 100; a++)
+	{
+		if (a % 3 == 0)
+			printf("Fizz ");
+		else if (a % 5 == 0)
+			printf("Buzz ");
+		else
+			printf("%d ", a);
+	}
+	printf("\n");
+	return (0);
+}

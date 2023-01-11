@@ -22,7 +22,7 @@ char *_strdup(char *str)
 
 	ptrarr = malloc((str_len * sizeof(char)) + 1);
 	if (ptrarr == NULL)
-		return (NULL);
+		return ("failed to allocate memory");
 
 	while (str[i] != '\0')
 	{

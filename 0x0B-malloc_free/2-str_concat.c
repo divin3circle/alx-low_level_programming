@@ -13,6 +13,7 @@ char *str_concat(char *s1, char *s2)
 	int i = 0, j = 0;
 	int size;
 	char *ptrstr;
+	int count = 0;
 
 	while (s1[i] != '\0')
 	{
@@ -26,9 +27,6 @@ char *str_concat(char *s1, char *s2)
 		j++;
 	}
 	s1[i] = '\0';
-
-	int count = 0;
-
 	while (s1[count] != '\0')
 	{
 		count++;

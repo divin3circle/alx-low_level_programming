@@ -14,6 +14,7 @@ char *_strdup(char *str)
 	char *ptrarr;
 	int count = 0;
 	int size;
+	int i = 0;
 
 	while (str[count] != '\0')
 	{
@@ -26,7 +27,7 @@ char *_strdup(char *str)
 	if (ptrarr == NULL)
 		return (NULL);
 
-	for (int i = 0; str[i] != '\0'; i++)
+	while (str[i] != '\0')
 	{
 		ptrarr[i] = str[i];
 	}

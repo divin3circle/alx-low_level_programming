@@ -12,7 +12,6 @@
 char *_strdup(char *str)
 {
 	char *ptrarr;
-	int str_len;
 	int count = 0;
 	int size;
 
